@@ -23,6 +23,7 @@ const handleSubmit = (e) => {
     localStorage.removeItem(LS_KEY);
     form.reset();
     console.log(currentDate);
+    currentDate = {};
 };
 
 fillForm();
